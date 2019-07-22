@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+}
+
+.header {
+    background-color: wheat;
+}
+
+
+.navbarUL {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border-bottom: 4px solid rgb(41, 41, 51);
+
+}
+
+.navbarLiItems {
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(41, 41, 51);
+}
+
+.navbarLiItems:hover {
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(77, 77, 102);
+}
+
+.navbarLiLink {
+    text-decoration: none;
+    color: rgb(245, 235, 217);
+    font-size: 1.5em;
+}
+
+.winnersPicture {
+    max-width: 100%;
+}
