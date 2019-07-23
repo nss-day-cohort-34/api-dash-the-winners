@@ -17,7 +17,8 @@ const todoConverter = todoObject => {
   return `
         <section class="todo">
         <h1 class="todo__title">${todoObject.title}</h1>
-        <input type="checkbox" name="${todoObject.completed}" id="checkbox" checked>
+        <input type="checkbox" name="Done"${
+          todoObject.completed ? "checked" : " "}>
         </section>
         `;
 };
