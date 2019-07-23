@@ -1,0 +1,9 @@
+#todo-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.todo {
+    flex-basis: 25%;
+}

@@ -17,7 +17,7 @@ const todoConverter = todoObject => {
   return `
         <section class="todo">
         <h1 class="todo__title">${todoObject.title}</h1>
-        <input type="checkbox" name="${todoObject.completed}" id="checkbox">
+        <input type="checkbox" name="${todoObject.completed}" id="checkbox" checked>
         </section>
         `;
 };
@@ -25,15 +25,5 @@ const todoConverter = todoObject => {
 const displayTodoInDOM = todoHTMLRepresent => {
   whereToPutTodo.innerHTML += todoHTMLRepresent;
 };
-
-// const todoCheckbox = () => {
-//     if (todoObject.completed === true) {
-//         checked = true
-//     }
-// }
-
-const checkboxChecked = () => {
-    document.getElementById("checked").checked = true;
-}
 
 todoFetcher();
